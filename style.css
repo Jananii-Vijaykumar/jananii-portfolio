@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jananii Vijaykumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Jananii Vijaykumar</h1>
+    <p>Data Analytics Student | Machine Learning Enthusiast</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Final-year Computer Science Engineering (Big Data Analytics)
+        student passionate about Data Analytics, Machine Learning,
+        Artificial Intelligence and Software Development.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Power BI</li>
+        <li>Machine Learning</li>
+        <li>Data Analytics</li>
+        <li>HTML & CSS</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div>
+        <h3>Financial Fraud Detection Model</h3>
+        <p>Machine learning model to identify fraudulent transactions.</p>
+    </div>
+
+    <div>
+        <h3>Personalized Healthcare & Medicine Recommendation System</h3>
+        <p>Healthcare recommendation system using machine learning.</p>
+    </div>
+
+    <div>
+        <h3>Sentiment Analysis on Social Media</h3>
+        <p>Analyzed social media opinions using NLP techniques.</p>
+    </div>
+
+    <div>
+        <h3>EEG Brainwave Authentication System</h3>
+        <p>Authentication system based on EEG brainwave signals.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>GitHub: github.com/yourusername</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+</section>
+
+<footer>
+    <p>© 2026 Jananii Vijaykumar</p>
+</footer>
+
+</body>
+</html>
