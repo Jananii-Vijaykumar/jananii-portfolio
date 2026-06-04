@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,7 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -18,18 +17,22 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <body>
 
+<div class="bg-animation"></div>
+
 <nav>
-    <div class="logo">Jananii</div>
+    <div class="logo">Jananii.</div>
 
     <ul>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
-<section class="hero">
+<section class="hero" id="home">
 
     <div class="hero-text">
 
@@ -40,24 +43,24 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         <h2>Data Analytics Student</h2>
 
         <p>
-            Final-year Computer Science Engineering student specializing in Big Data Analytics.
-            Passionate about Machine Learning, Data Analytics, Artificial Intelligence,
-            and building real-world solutions through technology.
+            Final-Year Computer Science Engineering Student specializing in Big Data Analytics.
+            Passionate about Artificial Intelligence, Machine Learning, Data Analytics,
+            and solving real-world problems using technology.
         </p>
 
-        <div class="buttons">
+        <div class="hero-buttons">
 
             <a href="#projects" class="btn">
                 View Projects
             </a>
 
-            <a href="resume.pdf" class="btn secondary" download>
-                Download Resume
+            <a href="resume.pdf" download class="btn btn-outline">
+                Resume
             </a>
 
         </div>
 
-        <div class="socials">
+        <div class="social-icons">
 
             <a href="https://github.com/Jananii-Vijaykumar" target="_blank">
                 <i class="fab fa-github"></i>
@@ -83,20 +86,21 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <section id="about">
 
-<h2>About Me</h2>
+<h2 class="section-title">About Me</h2>
 
 <div class="glass-card">
 
 <p>
-I am a final-year B.Tech Computer Science Engineering student with a specialization
-in Big Data Analytics at SRM University. I have a CGPA of 9.56 and a strong
-interest in Data Analytics, Machine Learning, Artificial Intelligence, and Software Development.
+I am Jananii Vijaykumar, a Final-Year B.Tech Computer Science Engineering student
+specializing in Big Data Analytics at SRM University with a CGPA of 9.56.
 </p>
 
+<br>
+
 <p>
-I have worked on projects involving fraud detection, sentiment analysis,
-brainwave authentication systems, and healthcare recommendation systems.
-I enjoy solving real-world problems using data-driven approaches.
+My interests include Artificial Intelligence, Machine Learning, Data Analytics,
+Data Visualization, and Software Development.
+I enjoy building intelligent systems that solve practical problems.
 </p>
 
 </div>
@@ -105,20 +109,20 @@ I enjoy solving real-world problems using data-driven approaches.
 
 <section id="skills">
 
-<h2>Skills</h2>
+<h2 class="section-title">Skills</h2>
 
 <div class="skills-grid">
 
-<div class="skill">Python</div>
-<div class="skill">SQL</div>
-<div class="skill">Java</div>
-<div class="skill">Power BI</div>
-<div class="skill">Machine Learning</div>
-<div class="skill">Data Analytics</div>
-<div class="skill">Pandas</div>
-<div class="skill">NumPy</div>
-<div class="skill">HTML</div>
-<div class="skill">GitHub</div>
+<div class="skill-card">Python</div>
+<div class="skill-card">SQL</div>
+<div class="skill-card">Power BI</div>
+<div class="skill-card">Java</div>
+<div class="skill-card">Machine Learning</div>
+<div class="skill-card">Data Analytics</div>
+<div class="skill-card">Pandas</div>
+<div class="skill-card">NumPy</div>
+<div class="skill-card">HTML</div>
+<div class="skill-card">GitHub</div>
 
 </div>
 
@@ -126,35 +130,36 @@ I enjoy solving real-world problems using data-driven approaches.
 
 <section id="projects">
 
-<h2>Projects</h2>
+<h2 class="section-title">Projects</h2>
 
 <div class="project-grid">
 
 <div class="project-card">
-<h3>Financial Fraud Detection</h3>
+<h3>🛡 Financial Fraud Detection</h3>
 <p>
-Built a machine learning model to identify fraudulent financial transactions.
+Machine Learning model to identify fraudulent transactions
+using predictive analytics.
 </p>
 </div>
 
 <div class="project-card">
-<h3>Healthcare Recommendation System</h3>
+<h3>🏥 Healthcare Recommendation System</h3>
 <p>
 AI-powered healthcare and medicine recommendation platform.
 </p>
 </div>
 
 <div class="project-card">
-<h3>Brainwave Authentication System</h3>
+<h3>🧠 Brainwave Authentication</h3>
 <p>
-Developed EEG-based authentication using Random Forest algorithms.
+EEG-based biometric authentication system using Random Forest.
 </p>
 </div>
 
 <div class="project-card">
-<h3>Sentiment Analysis on Social Media</h3>
+<h3>😊 Sentiment Analysis</h3>
 <p>
-Analyzed user opinions and emotions using NLP and machine learning.
+Social media sentiment analysis using NLP and Machine Learning.
 </p>
 </div>
 
@@ -162,25 +167,43 @@ Analyzed user opinions and emotions using NLP and machine learning.
 
 </section>
 
-<section id="contact">
+<section id="experience">
 
-<h2>Contact</h2>
+<h2 class="section-title">Experience</h2>
 
 <div class="glass-card">
 
-<p>Email: jananiivijaykumar@gmail.com</p>
+<h3>HighRadius Technologies</h3>
+<p>Consulting Intern</p>
+
+<br>
+
+<h3>India–Malaysia Internship Programme</h3>
+<p>International Internship & Industrial Exposure</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="glass-card">
+
+<p>📧 jananiivijaykumar@gmail.com</p>
 
 <p>
-GitHub:
-<a href="https://github.com/Jananii-Vijaykumar" target="_blank">
-Jananii-Vijaykumar
+🔗 LinkedIn:
+<a href="https://www.linkedin.com/in/jananii-vijaykumar-5129253a7/" target="_blank">
+Connect With Me
 </a>
 </p>
 
 <p>
-LinkedIn:
-<a href="https://www.linkedin.com/in/jananii-vijaykumar-5129253a7/" target="_blank">
-Connect with me
+💻 GitHub:
+<a href="https://github.com/Jananii-Vijaykumar" target="_blank">
+Jananii-Vijaykumar
 </a>
 </p>
 
@@ -191,6 +214,8 @@ Connect with me
 <footer>
 © 2026 Jananii Vijaykumar | Portfolio
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
